@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+#kurly {
+  width: 640px;
+  margin: 0 auto;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#kurly .title {
+  text-align: center;
+  margin-top: 20px;
+}
+#kurly .content h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+#kurly .content h4 {
+  border-bottom: 2px solid #222;
+  padding-bottom: 5px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+#kurly .content h4 span {
+  font-size: 12px;
+}
+#kurly .content h4 span i {
+  color: #ee6a7b;
+  margin-right: 5px;
+}
+#kurly .content .gap {
+  display: flex;
+  padding: 10px 20px;
+}
+#kurly .content .gap .label-box {
+  width: 160px;
+}
+#kurly .content .gap .label-box span {
+  color: #111;
+  font-size: 15px;
+  font-weight: 600;
+}
+#kurly .content .gap .label-box span i {
+  color: #ee6a7b;
+}
+#kurly .content .gap .input-box {
+  width: 440px;
+  position: relative;
+}
+#kurly .content .gap .input-box p {
+  /*  display: none; */
+  font-size: 12px;
+  color: #666;
+  margin: 7px 0 0 0;
+}
+#kurly .content .gap .input-box p.red {
+  color: #b3130b;
+}
+#kurly .content .gap .input-box p.green {
+  color: #0e6b2e;
+}
+#kurly .content .gap .input-box .gapAgree {
+  display: block;
+}
+#kurly .content .gap .input-box .inputText {
+  padding: 5px 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 45px;
+}
+#kurly .content .gap .input-box .inputText::-moz-placeholder {
+  color: #bbb;
+  font-size: 14px;
+}
+#kurly .content .gap .input-box .inputText::placeholder {
+  color: #bbb;
+  font-size: 14px;
+}
+#kurly .content .gap .input-box .inputText:focus {
+  outline: 1px solid #666;
+  outline-offset: -1px;
+}
+#kurly .content .gap .input-box .inputText img {
+  vertical-align: middle;
+}
+#kurly .content .gap .input-box .counter-timer-box {
+  position: absolute;
+  right: 31%;
+  bottom: 15px;
+  font-size: 12px;
+  color: #b3130b;
+}
+#kurly .content .gap .input-box #inputPhone1 {
+  margin-top: 10px;
+}
+#kurly .content .gap .input-box .w120-btn {
+  width: 120px;
+  height: 45px;
+  border: 1px solid #5f0080;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #fff;
+  color: #5f0080;
+  font-size: 15px;
+}
+#kurly .content .gap .input-box .w120-btn.phone {
+  border: 1px solid #ccc;
+  color: #ccc;
+}
+#kurly .content .gap .input-box .w120-btn.phonok-btn {
+  top: 55px;
+}
+#kurly .content .gap .input-box label:nth-child(1) {
+  margin: 0 auto 0 0;
+}
+#kurly .content .gap .input-box label:nth-child(2) {
+  margin: 0 auto 0 auto;
+}
+#kurly .content .gap .input-box label:nth-child(3) {
+  margin: 0 0 0 auto;
+}
+#kurly .content .gap .input-box label input[type=radio] {
+  width: 24px;
+  height: 24px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+}
+#kurly .content .gap .input-box label input[type=radio]:checked {
+  border: 6px solid #5f0080;
+}
+#kurly .content .gap .input-box label span {
+  font-size: 15px;
+  margin: 10px;
+  position: relative;
+  top: -5px;
+}
+#kurly .content .gap .input-box.radio-box {
+  width: 53%;
+  display: flex;
+}
+#kurly .content .gap .input-box .radio-box2 {
+  display: flex;
+}
+#kurly .content .gap .input-box .add-input-box {
+  margin-top: 10px;
+}
+#kurly .content .gap .input-box .add-input-box .inputText {
+  width: 70%;
+}
+#kurly .content .gap .input-box .date-box {
+  display: flex;
+  width: 70%;
+  height: 45px;
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 0 25px;
+}
+#kurly .content .gap .input-box .date-box li {
+  height: 100%;
+  padding: 0;
+}
+#kurly .content .gap .input-box .date-box li input[type=text] {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: none;
+}
+#kurly .content .gap .input-box .date-box li input[type=text]:focus {
+  outline: 0;
+}
+#kurly .content .gap .input-box .date-box li input[type=text]::-moz-placeholder {
+  color: #ccc;
+  font-size: 16px;
+}
+#kurly .content .gap .input-box .date-box li input[type=text]::placeholder {
+  color: #ccc;
+  font-size: 16px;
+}
+#kurly .content .gap .input-box .date-box li span {
+  font-size: 16px;
+  color: #ccc;
+  position: relative;
+  top: 5px;
+}
+#kurly .content hr {
+  border: 0;
+  width: 100%;
+  margin: 20px 0;
+  border-bottom: 1px solid #333;
+}
+#kurly .content .service .gap {
+  height: auto;
+}
+#kurly .content .service .gap .label-box {
+  height: auto;
+  padding: 0 0 0 20px;
+  margin: 0 auto auto 0;
+}
+#kurly .content .service .gap .check-box {
+  padding: 0 0 0 0;
+  width: 100%;
+}
+#kurly .content .service .gap .check-box dl {
+  width: 100%;
+}
+#kurly .content .service .gap .check-box dl dt label {
+  display: block;
+  width: 100%;
+}
+#kurly .content .service .gap .check-box dl dt label input[type=checkbox] {
+  width: 24px;
+  height: 24px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 50%;
+  background: url(../img/checkbox.svg) no-repeat 50% 50%;
+  background-size: 24px 24px;
+}
+#kurly .content .service .gap .check-box dl dt label input[type=checkbox]:checked {
+  background-image: url(../img/checkbox_checked.svg);
+}
+#kurly .content .service .gap .check-box dl dt label span {
+  font-size: 18px;
+  color: #444;
+  font-weight: 500;
+}
+#kurly .content .service .gap .check-box dl dt p {
+  font-size: 12px;
+  color: #666;
+  padding: 3px 0 0 34px;
+}
+#kurly .content .service .gap .check-box dl dd {
+  margin: 20px 0;
+  position: relative;
+}
+#kurly .content .service .gap .check-box dl dd label {
+  position: relative;
+  display: block;
+  width: 100%;
+  z-index: 1;
+}
+#kurly .content .service .gap .check-box dl dd label input[type=checkbox] {
+  width: 24px;
+  height: 24px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 50%;
+  background: url(../img/checkbox.svg) no-repeat 50% 50%;
+  background-size: 24px 24px;
+}
+#kurly .content .service .gap .check-box dl dd label input[type=checkbox]:checked {
+  background-image: url(../img/checkbox_checked.svg);
+}
+#kurly .content .service .gap .check-box dl dd label span {
+  font-size: 15px;
+  line-height: 24px;
+}
+#kurly .content .service .gap .check-box dl dd label span > i {
+  color: #a8a8a8;
+  font-style: normal;
+  margin-left: 5px;
+}
+#kurly .content .service .gap .check-box dl dd > span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  font-size: 14px;
+}
+#kurly .content .service .gap .check-box dl dd > span a {
+  color: #5f0080;
+}
+#kurly .content .service .gap .check-box dl dd > span a i {
+  font-size: 12px;
+}
+#kurly .content .service .gap .check-box dl dd .sub-checkbox {
+  padding: 10px 0 0 34px;
+}
+#kurly .content .service .gap .check-box dl dd .sub-checkbox div {
+  padding: 0 150px 0 0;
+  display: flex;
+  flex: row wrap;
+}
+#kurly .content .service .gap .check-box dl dd .sub-checkbox div label {
+  width: 30%;
+}
+#kurly .content .service .gap .check-box dl dd .sub-checkbox p {
+  font-size: 12px;
+  color: #5f0080;
+  margin: 5px 0 0 34px;
+  padding: 0 0 0 15px;
+  background: url(../img/ico_sub_dot.svg) no-repeat 0 50%;
+}
+#kurly .content .button-box {
+  padding: 50px 0 200px 0;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+#kurly .content .button-box button {
+  width: 250px;
+  height: 60px;
+  background: #5f0080;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#kurly .content .button-box button:hover {
+  filter: brightness(120%);
+}
+#kurly .content .modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+}
+#kurly .content .modal .container {
+  width: 490px;
+  height: 250px;
+  background: #fff;
+  margin: auto;
+}
+#kurly .content .modal .container .content-box {
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  height: 170px;
+  line-height: 170px;
+}
+#kurly .content .modal .container .content-box p {
+  font-weight: 500;
+  color: #666;
+  font-size: 18px;
+  text-align: center;
+}
+#kurly .content .modal .container .button-box {
+  width: 100%;
+  height: 80px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#kurly .content .modal .container .button-box .ok-btn {
+  width: 150px;
+  height: 45px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 3px;
+  border: none;
+}/*# sourceMappingURL=style.css.map */

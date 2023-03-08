@@ -1,0 +1,9 @@
+cjh7652.dothome.co.kr/myadmin
+데이터베이스 생성
+cjh7652
+
+테이블명
+kurly_member
+
+비번
+닷홈 비밀번호
